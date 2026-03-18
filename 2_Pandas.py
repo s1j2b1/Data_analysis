@@ -288,9 +288,9 @@ print('projects____________________________________________')
 
 
 # # للاطلاع على "Xl" بصيغة "csv"
-# data1 = pd.read_csv(r"C:\Users\Lenovo\Desktop\viewer\JORDAN\Ai\folder\pixar_films_new.csv"
+# data1 = pd.read_csv(r"C:\..\pixar_films_new.csv"
 #                    )  # index_col=5 ,nrows=20 index_col=(0,1,3,5,10,11,12,13,14),
-# data2= pd.read_csv(r"C:\Users\Lenovo\Desktop\Viewer\JORDAN\Ai\folder\Chocolate_Sales.csv")
+# data2= pd.read_csv(r"C:\..\Chocolate_Sales.csv")
 #
 # print(f"head():data1 \n{data1.head()} \n")      # عرض الملف بشكل "DataFrame" و ممكن تحدد كم "row"
 # print(f"feature:data1 \n{data1.columns} \n")    # عناوين الاعمدة
