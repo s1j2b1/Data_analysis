@@ -12,7 +12,7 @@ print('csv ____________________________________________')
 #  و الفايدة انه لما ترسل لحد ملف البايثون بيكون داخله الملف ما يحتاج يحدد موقعة مرة
 # تنسخ بيانات الملف ثم تلصقهن في ملف python.text
 # طبعا صيغة "csv" تقدر تقرأ اي نوع من الملفات و تحولها الى "DataFrame"
-data= pd.read_csv(r"C:\Users\Lenovo\Desktop\Viewer\JORDAN\Ai\folder\Chocolate_Sales.csv")
+data= pd.read_csv(r"C:\..\Chocolate_Sales.csv")
 
 print(f"data: \n{data} \n")            # يطبع 5 من الاول و5 من الاخر كنموذج
 # يطبع عدد الصفوف الي تريدها من فوق
